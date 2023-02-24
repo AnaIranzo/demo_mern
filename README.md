@@ -11,7 +11,8 @@
 
  3. add script to backend package.json
  ```
-    "scripts": {
+   "scripts": {
+      "seed": "node seed/seeds.js",
       "start": "node server.js",
       "server": "nodemon server.js",
       "client": "npm start --prefix client",
@@ -43,7 +44,7 @@
 - Root Directory: Leave as it is
 - Runtime: Node
 - Build command, you must install dependencies and build your client app: `npm install && cd client && npm install && npm run build`
-- Start command: `npm run production`
+- Start command: `npm run deploy`
 - Autodeploy: Yes
 - Deploy hook: Leave as it is
 
