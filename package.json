@@ -15,6 +15,7 @@
       "nodemon": "^2.0.19"
     },
     "scripts": {
+      "seed": "node seed/seeds.js",
       "start": "node server.js",
       "server": "nodemon server.js",
       "client": "npm start --prefix client",
